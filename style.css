@@ -1,0 +1,130 @@
+style.css
+
+body{
+	color: #eea29a;
+	font-family: serif;
+	font-size: 28px;
+	line-height: 1,25;
+	letter-spacing: 3px;
+}
+
+body{
+	background:#f5deb3;
+}
+
+h1 {
+	color: #8b0000 	;
+	font-family: initial serif;
+	text-align: center;
+	border-size:  180px ;
+	padding-bottom: 10px;
+
+}
+
+
+h2 {
+	color: #dc143c 	;
+	text-align: center;
+	font-weight: 100;
+	font-family: cursive;
+	font-size: 24px;
+}
+
+
+p{
+
+	color: black;
+	padding-bottom: 16px;
+}
+
+.justifier{
+	text-align: justify;
+}
+
+
+.box-white {
+  margin: 12px 2px;
+  padding: 40px;
+  background: white;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0.3, 0.2);
+  text-align: center;
+  border-radius: 3px;
+}
+
+.list-inline{
+	font-size: 30px;
+	text-align: center;
+	list-style: none;
+	padding-left: 4px;
+	color: black;
+}
+
+
+
+.img-border-circle {
+   width:200px;
+   border-radius:50%; 
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.button{
+	background-color: #cd5c5c;
+	border-radius: 4px;
+	padding: 7px 10px;
+}
+
+
+.button:hover {
+	background-color: #f08080 ;
+}
+
+
+.button{
+	color: #fffff0;
+}
+
+.button:hover {
+	color: #fffff0;
+}
+
+.container{
+	width: 700px;
+	margin: 0 auto;
+
+}
+
+.button-social{
+	color: rgb(40, 40, 40);
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
